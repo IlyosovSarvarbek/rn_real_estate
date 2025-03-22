@@ -1,0 +1,24 @@
+{
+  "cli": {
+    "version": ">= 13.0.1",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "env":{
+        "EXPO_PUBLIC_APPWRITE_PROJECT_ID":"67dacb29003cc278a71f"
+      }
+    },
+    "production": {
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
